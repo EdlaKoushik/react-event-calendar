@@ -50,28 +50,29 @@ It supports monthly navigation, event visualization inside calendar cells, and a
 - **Vite** – Development and build tool
 
 ---
-
 ## 📁 Project Structure
-src/
-│
-├── components/
-│ └── EventModal.jsx # Popup modal for event details
-│
-├── data/
-│ └── events.json # Static event data
-│
-├── utils/
-│ └── calendarUtils.js # Calendar date generation logic
-│
-├── App.jsx # Main application component
-├── App.css # Application styles
-├── index.css # Global styles
-└── main.jsx # React entry point
 
+```text
+src/
+├── components/
+│   └── EventModal.jsx
+├── data/
+│   └── events.json
+├── utils/
+│   └── calendarUtils.js
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+---
 
 ## Usage of color:
 -Light background color for event titles in calendar cells
 -Thick left border indicator in the event modal
+
+---
 
 ## 🧠 Design Decisions
 
@@ -83,9 +84,13 @@ src/
 
 -Horizontal scrolling on mobile preserves the full calendar view
 
+---
+
 ## ▶️ Running the Project Locally
 -npm install
 -npm run dev
+
+---
 
 ## 👤 Author
 

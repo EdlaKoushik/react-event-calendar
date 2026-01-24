@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Daily Standup",
+    "date": "2026-01-22",
+    "startTime": "09:00",
+    "endTime": "09:30",
+    "color": "#2563eb",
+    "className": "bg-blue-100"
+  },
+  {
+    "id": 2,
+    "title": "API Review",
+    "date": "2026-01-22",
+    "startTime": "10:00",
+    "endTime": "11:30",
+    "color": "#ea580c",
+    "className": "bg-orange-100"
+  },
+  {
+    "id": 3,
+    "title": "Lunch Break",
+    "date": "2026-01-22",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "color": "#16a34a",
+    "className": "bg-green-100"
+  },
+  {
+    "id": 4,
+    "title": "Sprint Planning",
+    "date": "2026-01-26",
+    "startTime": "10:00",
+    "endTime": "11:30",
+    "color": "#7c3aed",
+    "className": "bg-purple-100"
+  },
+  {
+    "id": 5,
+    "title": "QA Review",
+    "date": "2026-01-26",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "color": "#0d9488",
+    "className": "bg-green-100"
+  },
+  {
+    "id": 6,
+    "title": "Demo Presentation",
+    "date": "2026-01-02",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "color": "#9333ea",
+    "className": "bg-purple-100"
+  }
+]

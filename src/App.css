@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:20px;
+  padding:9px;
   font-family: system-ui, -apple-system, sans-serif;
 }
 
@@ -23,7 +23,7 @@
   background: white;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  padding: 2rem;
+  padding:1rem 1rem 1rem 1rem;
   overflow:hidden;
 }
 
@@ -32,11 +32,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.3rem;
+  margin-top: -10px;
 }
 
 .month-title {
-  font-size: 1.6rem;
+  margin-top:-9px;
+  font-size: 1.5rem;
   font-weight: 700;
   color:#1e293b;
 }
@@ -72,7 +74,7 @@
   color:#3a4453;
   text-transform:uppercase;
   letter-spacing: 0.1rem;
-  margin-bottom:1rem;
+  margin-bottom:0.75rem;
 }
 
 /* GRID */
@@ -93,7 +95,7 @@
 .calendar-cell {
   background: white;
   padding: 12px;
-  height:120px;
+  height:117px;
   transition:all 0.22s ease;
   border-radius:10px;
   position:relative;
@@ -140,16 +142,16 @@
 
 /* EVENTS */
 .events-list {
-  margin-top: 6px;
+  margin-top: 2px;
   display: flex;
   flex-direction: column;
   gap: 1.5px;
-  font-size:0.8rem;
+  font-size:0.7rem;
 }
 
 .event-item {
   padding: 3px 6px;
-  font-size: 11px;
+  font-size: 10px;
   border-radius: 6px;
   white-space: nowrap;
   overflow: hidden;
@@ -187,7 +189,7 @@
 /* +N MORE */
 .more-events {
   color: #64748b;
-  font-size:0.78rem;
+  font-size:0.7rem;
   background: #f8fafc;
   border-radius:6px;
   font-weight: 700;
@@ -195,7 +197,14 @@
   text-align: left;
   padding-left: 4px;
   margin-bottom:2px !important ;
+  
 }
+
+ .more-events:hover {
+  transform: translateX(2px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
 
 /* EVENT COLORS */
 .bg-blue-100 {

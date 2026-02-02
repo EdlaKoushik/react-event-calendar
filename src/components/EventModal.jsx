@@ -15,19 +15,22 @@ const EventModal = ({ selectedDayData, onClose }) => {
 
         <div className="modal-body">
           {events.length === 0 ? (
-            <div className="no-events">No events for this day</div>
+            <div className="no-events">No events</div>
           ) : (
             events.map((event) => (
               <div
                 key={event.id}
-                className={`modal-event ${event.hasConflict ? "conflict" : ""}`}
+                className={`modal-event ${
+                  event.hasConflict ? "conflict" : ""
+                }`}
                 style={{ borderLeftColor: event.color }}
               >
                 <div className="modal-event-title">
-                  {event.hasConflict && <span className="warning">⚠</span>}
+                  {event.hasConflict && (
+                    <span className="warning">⚠</span>
+                  )}
                   {event.title}
                 </div>
-
                 <div className="modal-event-time">
                   {event.startTime} – {event.endTime}
                 </div>

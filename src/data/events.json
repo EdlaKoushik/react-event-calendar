@@ -1,291 +1,137 @@
 [
-{
-"id": 1,
-"title": "Daily Standup",
-"date": "2026-01-22",
-"startTime": "09:00",
-"endTime": "09:30",
-"color": "#2563eb",
-"className": "bg-blue-100"
-},
-{
-"id": 2,
-"title": "API Review",
-"date": "2026-01-22",
-"startTime": "10:00",
-"endTime": "11:30",
-"color": "#ea580c",
-"className": "bg-orange-100"
-},
-{
-"id": 3,
-"title": "Lunch Break",
-"date": "2026-01-22",
-"startTime": "13:00",
-"endTime": "14:00",
-"color": "#16a34a",
-"className": "bg-green-100"
-},
-{
-"id": 4,
-"title": "Sprint Planning",
-"date": "2026-01-26",
-"startTime": "10:00",
-"endTime": "11:30",
-"color": "#7c3aed",
-"className": "bg-purple-100"
-},
-{
-"id": 5,
-"title": "QA Review",
-"date": "2026-01-26",
-"startTime": "12:00",
-"endTime": "13:00",
-"color": "#0d9488",
-"className": "bg-teal-100"
-},
-{
-"id": 6,
-"title": "Demo Presentation",
-"date": "2026-01-02",
-"startTime": "14:00",
-"endTime": "15:00",
-"color": "#9333ea",
-"className": "bg-purple-100"
-},
-{
-"id": 7,
-"title": "Client Meeting",
-"date": "2026-02-15",
-"startTime": "11:00",
-"endTime": "12:00",
-"color": "#dc2626",
-"className": "bg-red-100"
-},
-{
-"id": 8,
-"title": "Code Review",
-"date": "2026-02-18",
-"startTime": "15:00",
-"endTime": "16:00",
-"color": "#ca8a04",
-"className": "bg-yellow-100"
-},
-{
-"id": 9,
-"title": "Team Building",
-"date": "2026-02-25",
-"startTime": "16:00",
-"endTime": "17:30",
-"color": "#db2777",
-"className": "bg-pink-100"
-},
-{
-"id": 10,
-"title": "Product Demo",
-"date": "2026-02-07",
-"startTime": "14:30",
-"endTime": "15:30",
-"color": "#0891b2",
-"className": "bg-cyan-100"
-},
-{
-"id": 11,
-"title": "One-on-One",
-"date": "2026-03-05",
-"startTime": "11:00",
-"endTime": "11:30",
-"color": "#4f46e5",
-"className": "bg-indigo-100"
-},
-{
-"id": 12,
-"title": "Budget Planning",
-"date": "2026-03-12",
-"startTime": "10:00",
-"endTime": "12:00",
-"color": "#7c2d12",
-"className": "bg-amber-100"
-},
-{
-"id": 13,
-"title": "Tech Workshop",
-"date": "2026-03-20",
-"startTime": "13:00",
-"endTime": "15:00",
-"color": "#374151",
-"className": "bg-gray-100"
-},
-{
-"id": 14,
-"title": "Company All-Hands",
-"date": "2026-04-02",
-"startTime": "15:00",
-"endTime": "16:30",
-"color": "#047857",
-"className": "bg-emerald-100"
-},
-{
-"id": 15,
-"title": "Interview Session",
-"date": "2026-04-15",
-"startTime": "10:30",
-"endTime": "12:00",
-"color": "#7e22ce",
-"className": "bg-violet-100"
-},
-{
-"id": 16,
-"title": "Marketing Review",
-"date": "2026-04-22",
-"startTime": "14:00",
-"endTime": "15:00",
-"color": "#e11d48",
-"className": "bg-rose-100"
-},
-{
-"id": 17,
-"title": "Training Session",
-"date": "2026-05-10",
-"startTime": "09:30",
-"endTime": "11:00",
-"color": "#0f766e",
-"className": "bg-teal-100"
-},
-{
-"id": 18,
-"title": "Release Planning",
-"date": "2026-05-18",
-"startTime": "13:30",
-"endTime": "15:00",
-"color": "#be185d",
-"className": "bg-pink-100"
-},
-{
-"id": 19,
-"title": "Design Review",
-"date": "2026-06-05",
-"startTime": "11:00",
-"endTime": "12:00",
-"color": "#1d4ed8",
-"className": "bg-blue-100"
-},
-{
-"id": 20,
-"title": "Quarterly Review",
-"date": "2026-06-20",
-"startTime": "09:00",
-"endTime": "11:00",
-"color": "#92400e",
-"className": "bg-orange-100"
-},
-{
-"id": 21,
-"title": "New Project Kickoff",
-"date": "2026-07-08",
-"startTime": "10:00",
-"endTime": "12:00",
-"color": "#166534",
-"className": "bg-green-100"
-},
-{
-"id": 22,
-"title": "Hackathon",
-"date": "2026-07-25",
-"startTime": "09:00",
-"endTime": "18:00",
-"color": "#6b21a8",
-"className": "bg-purple-100"
-},
-{
-"id": 23,
-"title": "Summer Party",
-"date": "2026-08-15",
-"startTime": "17:00",
-"endTime": "21:00",
-"color": "#dc2626",
-"className": "bg-red-100"
-},
-{
-"id": 24,
-"title": "Annual Review",
-"date": "2026-08-28",
-"startTime": "14:00",
-"endTime": "16:00",
-"color": "#854d0e",
-"className": "bg-yellow-100"
-},
-{
-"id": 25,
-"title": "Conference Prep",
-"date": "2026-09-03",
-"startTime": "13:00",
-"endTime": "15:00",
-"color": "#155e75",
-"className": "bg-cyan-100"
-},
-{
-"id": 26,
-"title": "Team Offsite",
-"date": "2026-09-15",
-"startTime": "10:00",
-"endTime": "16:00",
-"color": "#3730a3",
-"className": "bg-indigo-100"
-},
-{
-"id": 27,
-"title": "Product Launch",
-"date": "2026-10-01",
-"startTime": "14:00",
-"endTime": "15:30",
-"color": "#115e59",
-"className": "bg-teal-100"
-},
-{
-"id": 28,
-"title": "Year-End Planning",
-"date": "2026-10-20",
-"startTime": "09:00",
-"endTime": "12:00",
-"color": "#374151",
-"className": "bg-gray-100"
-},
-{
-"id": 29,
-"title": "Holiday Party Planning",
-"date": "2026-11-10",
-"startTime": "11:00",
-"endTime": "12:30",
-"color": "#9f1239",
-"className": "bg-rose-100"
-},
-{
-"id": 30,
-"title": "Black Friday Prep",
-"date": "2026-11-25",
-"startTime": "13:00",
-"endTime": "15:00",
-"color": "#92400e",
-"className": "bg-amber-100"
-},
-{
-"id": 31,
-"title": "Year-End Review",
-"date": "2026-12-15",
-"startTime": "09:00",
-"endTime": "17:00",
-"color": "#3f6212",
-"className": "bg-lime-100"
-},
-{
-"id": 32,
-"title": "Holiday Break Start",
-"date": "2026-12-23",
-"startTime": "12:00",
-"endTime": "13:00",
-"color": "#065f46",
-"className": "bg-emerald-100"
-}
-]
+  {
+    "id": 1,
+    "title": "Daily Standup",
+    "date": "2026-01-22",
+    "startTime": "09:00",
+    "endTime": "09:30",
+    "color": "#2563eb",
+    "className": "bg-blue-100"
+  },
+  {
+    "id": 2,
+    "title": "API Review",
+    "date": "2026-01-22",
+    "startTime": "10:00",
+    "endTime": "11:30",
+    "color": "#ea580c",
+    "className": "bg-orange-100"
+  },
+  {
+    "id": 3,
+    "title": "Lunch Break",
+    "date": "2026-01-22",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "color": "#16a34a",
+    "className": "bg-green-100"
+  },
 
+
+
+  {
+    "id": 7,
+    "title": "Client Meeting",
+    "date": "2026-02-15",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "color": "#dc2626",
+    "className": "bg-red-100"
+  },
+  {
+    "id": 33,
+    "title": "Design Sync",
+    "date": "2026-02-15",
+    "startTime": "11:30",
+    "endTime": "12:30",
+    "color": "#7c3aed",
+    "className": "bg-purple-100"
+  },
+
+  {
+    "id": 10,
+    "title": "Product Demo",
+    "date": "2026-02-07",
+    "startTime": "14:30",
+    "endTime": "15:30",
+    "color": "#0891b2",
+    "className": "bg-cyan-100"
+  },
+  {
+    "id": 34,
+    "title": "Internal Review",
+    "date": "2026-02-07",
+    "startTime": "15:00",
+    "endTime": "16:00",
+    "color": "#ca8a04",
+    "className": "bg-yellow-100"
+  },
+
+  {
+    "id": 8,
+    "title": "Code Review",
+    "date": "2026-02-18",
+    "startTime": "15:00",
+    "endTime": "16:00",
+    "color": "#ca8a04",
+    "className": "bg-yellow-100"
+  },
+  {
+    "id": 35,
+    "title": "Hotfix Discussion",
+    "date": "2026-02-18",
+    "startTime": "15:30",
+    "endTime": "16:30",
+    "color": "#e11d48",
+    "className": "bg-rose-100"
+  },
+
+  {
+    "id": 9,
+    "title": "Team Building",
+    "date": "2026-02-25",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "color": "#db2777",
+    "className": "bg-pink-100"
+  },
+  {
+    "id": 36,
+    "title": "Sprint Retrospective",
+    "date": "2026-02-25",
+    "startTime": "16:30",
+    "endTime": "17:00",
+    "color": "#0f766e",
+    "className": "bg-teal-100"
+  },
+
+
+
+  {
+    "id": 11,
+    "title": "One-on-One",
+    "date": "2026-03-05",
+    "startTime": "11:00",
+    "endTime": "11:30",
+    "color": "#4f46e5",
+    "className": "bg-indigo-100"
+  },
+  {
+    "id": 12,
+    "title": "Budget Planning",
+    "date": "2026-03-12",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "color": "#7c2d12",
+    "className": "bg-amber-100"
+  },
+  {
+    "id": 13,
+    "title": "Tech Workshop",
+    "date": "2026-03-20",
+    "startTime": "13:00",
+    "endTime": "15:00",
+    "color": "#374151",
+    "className": "bg-gray-100"
+  }
+]

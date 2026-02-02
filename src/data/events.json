@@ -42,8 +42,8 @@
     "id": 33,
     "title": "Design Sync",
     "date": "2026-02-15",
-    "startTime": "11:30",
-    "endTime": "12:30",
+    "startTime": "12:30",
+    "endTime": "01:30",
     "color": "#7c3aed",
     "className": "bg-purple-100"
   },
@@ -61,8 +61,8 @@
     "id": 34,
     "title": "Internal Review",
     "date": "2026-02-07",
-    "startTime": "15:00",
-    "endTime": "16:00",
+    "startTime": "09:00",
+    "endTime": "10:00",
     "color": "#ca8a04",
     "className": "bg-yellow-100"
   },
@@ -71,7 +71,7 @@
     "id": 8,
     "title": "Code Review",
     "date": "2026-02-18",
-    "startTime": "15:00",
+    "startTime": "12:00",
     "endTime": "16:00",
     "color": "#ca8a04",
     "className": "bg-yellow-100"
@@ -89,7 +89,7 @@
   {
     "id": 9,
     "title": "Team Building",
-    "date": "2026-02-25",
+    "date": "2026-02-15",
     "startTime": "16:00",
     "endTime": "17:30",
     "color": "#db2777",
